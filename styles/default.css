@@ -1,9 +1,58 @@
+:root{
+    --lm-bg-color: #F7E4C9;
+    --lm-btn-bg-color: #987555;
+    --lm-btn-hover-bg-color: #D1B48C;
+    --lm-btn-font-color: white;
+    --lm-bs-color: rgba(134, 133, 133, 0.5);
+    --lm-black: #000;
+    --lm-border-color: #664228;
+    --lm-bar-color: #D3A29C;
+    --lm-perc-color: #A36361;
+    --white-color: #fff;
+}
+.darkmode{
+    --white-color: #fff;
+    --lm-bg-color: #1F1F1F;
+    --lm-btn-bg-color: #664228;
+    --lm-btn-hover-bg-color: #8C6B42;
+    --lm-btn-font-color: #F7E4C9;
+    --lm-black: #fff;
+    --lm-border-color: #664228;
+    --lm-bar-color: #D3A29C;
+    --lm-perc-color: #A36361;
+}
+#theme-switch{
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: var(--lm-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+}
+#theme-switch svg{
+    fill: var(--lm-black);
+}
+#theme-switch svg:last-child{
+    display: none;
+}
+.darkmode #theme-switch svg:first-child{
+    display: none;
+}
+.darkmode #theme-switch svg:last-child{
+    display: block;
+}
+
 /*START BODY*/
 html {
     scroll-behavior: smooth;
 }
 body{
-    background: #F7E4C9;
+    background: var(--lm-bg-color);
     margin: auto !important;
 }
 body{
@@ -11,6 +60,7 @@ body{
     max-width: 100% !important;
     font-family: 'Poppins', sans-serif;
     overflow-y: scroll;
+    color: var(--lm-black);
 }
 body::-webkit-scrollbar {
     width: 1px;
@@ -29,20 +79,20 @@ body::-webkit-scrollbar {
     font-size: 1rem;
     border-radius: 1.5rem;
     text-align: justify;
-    background: #987555;
+    background: var(--lm-btn-bg-color);
     border: none;
-    color: white;
+    color: var(--lm-btn-font-color);
     padding: 1rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    box-shadow: 0 4px 1rem rgba(134, 133, 133, 0.5);
+    box-shadow: 0 4px 1rem var(--lm-bs-color);
 }
 .spce{
     margin: 1%;
 }
 #hr-styles{
-    color: #F7E4C9;
+    color: var(--lm-bg-color);
 }
 .centertext{
     text-align: center;
@@ -56,8 +106,8 @@ body::-webkit-scrollbar {
     right: .5rem;
     bottom: .5rem;
     
-    border: 1px solid #000;
-    box-shadow: 0 4px 1rem rgba(134, 133, 133, 0.5);
+    border: 1px solid var(--lm-black);
+    box-shadow: 0 4px 1rem var(--lm-bs-color);
 }
 #stp-btn:hover, .btn-style-default:hover{
     background-color: #D1B48C;
@@ -75,7 +125,7 @@ body::-webkit-scrollbar {
     text-align: center;
     border: 1px solid;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px var(--lm-bs-color);
 }
 .title-subject-name{
     font-size: 2.3vw;
@@ -94,31 +144,31 @@ body::-webkit-scrollbar {
     text-align: justify;
     align-content: space-evenly;
     gap: 5vw;
-    background-color: #F7E4C9;
+    background-color: var(--lm-bg-color);
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 .navmenu-list .btn-list-style {
     padding: 1.5rem;
-    background-color: #987555;
+    background-color: var(--lm-btn-bg-color);
     text-align: center;
     margin: 1rem;
     width: 10rem;
-    color: #fff;
+    color: var(--lm-btn-font-color);
 
     border-radius: 1rem;
-    border: 1px solid #000;
-    box-shadow: 0 4px 1rem rgba(134, 133, 133, 0.5);
+    border: 1px solid var(--lm-black);
+    box-shadow: 0 4px 1rem var(--lm-bs-color);
 }
 .navmenu-list .btn-list-style:hover, .lta-btn:hover {
-    box-shadow: 0 4px 1rem rgba(134, 133, 133, 0.5);
-    background-color: #D1B48C;
+    box-shadow: 0 4px 1rem var(--lm-bs-color);
+    background-color: var(--lm-btn-hover-bg-color);
     cursor: pointer;
 }
 .navmenu-list .btn-list-style a{
     text-decoration: none;
-    color: #fff;
+    color: var(--lm-btn-font-color);
 }
 /*END NAVMENU*/
 
@@ -132,13 +182,13 @@ body::-webkit-scrollbar {
     text-align: center;
     border: 1px solid;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px var(--lm-btn-font-color);
 }
 .members-list {
     margin-top: 1%;
     align-content: space-evenly;
     gap: 8vw;
-    background-color: #F7E4C9;
+    background-color: var(--lm-bg-color);
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -146,9 +196,9 @@ body::-webkit-scrollbar {
 .members-list .mem{
     max-width: 100% !important;
     width: 15vw;
-    border: .2rem solid #664228;    
+    border: .2rem solid var(--lm-border-color);    
     border-radius: 100%;
-    background-color: #fff;
+    background-color: var(--white-color);
 }
 /*END MEMBERS*/
 
@@ -162,14 +212,14 @@ body::-webkit-scrollbar {
     align-items: center;
     border: 1px solid;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px var(--lm-bs-color);
 }
 .profiles-img{
-    background-color: #fff;
+    background-color: var(--white-color);
     margin-right: 5% !important;
     border-radius: 1.5vw;
     border: #664228 .4rem solid;
-    box-shadow: 0 4px 8px rgb(92, 92, 92);
+    box-shadow: 0 4px 8px var(--lm-bs-color);
     width: 16vw;
     max-height: 100% !important;
     margin: 1rem;
@@ -217,12 +267,12 @@ body::-webkit-scrollbar {
     width: 100%;
     margin: -1vw 0rem;
     height: 1.2vw;
-    background: #D3A29C;
+    background: var(--lm-bar-color);
 }
 .percent{
     content: " ";
     position: absolute;
-    background: #A36361;
+    background: var(--lm-perc-color);
     height: 1.2vw;
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
@@ -358,7 +408,7 @@ body::-webkit-scrollbar {
     text-align: center;
     border: 1px solid;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px var(--lm-bs-color);
 }
 .row{
     margin-top: 1%;
@@ -381,7 +431,7 @@ body::-webkit-scrollbar {
     text-decoration: none;
 }
 .rightborder{
-    border-right: #000 2px solid;
+    border-right: var(--lm-black) 2px solid;
 }
 /*END ACCOUNTS*/
 
@@ -395,7 +445,7 @@ body::-webkit-scrollbar {
     text-align: center;
     border: 1px solid;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgb(100, 100, 100);
+    box-shadow: 0 4px 8px var(--lm-bs-color);
 }
 .about p{
     text-align: justify;
@@ -407,11 +457,11 @@ body::-webkit-scrollbar {
     width: 20%;
     display: block; 
 
-    background: #664228;
+    background: var(--lm-border-color);
     padding: .5rem;
     border: 1px solid;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgb(100, 100, 100);
+    box-shadow: 0 4px 8px var(--lm-bs-color);
 }
 .about .citcs-logo-1{
     max-width: 100% !important;
@@ -427,10 +477,10 @@ body::-webkit-scrollbar {
     max-width: 100% !important;
     height: 4rem;
     bottom: 0;
-    background: #664228;
+    background: var(--lm-border-color);
     text-align: center;
     border-top: 1px solid;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    color: #F7E4C9;
+    box-shadow: 0 4px 8px var(--lm-bs-color);
+    color: var(--lm-bg-color);
 }
 /*END FOOTERR*/
