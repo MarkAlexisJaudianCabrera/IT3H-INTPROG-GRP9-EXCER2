@@ -22,6 +22,7 @@
     --lm-perc-color: #A36361;
 }
 #theme-switch{
+    cursor: pointer;
     height: 50px;
     width: 50px;
     padding: 0;
