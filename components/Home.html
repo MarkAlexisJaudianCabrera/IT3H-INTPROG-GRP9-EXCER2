@@ -9,6 +9,7 @@
     <script type="text/javascript" src="../javascript/bgmode.js" defer></script>
 </head>
 <body>
+
     <header>
         <button id="theme-switch">
             <!--dm-->
@@ -118,11 +119,12 @@
                 <h4 class="profiles-fn">Mark Alexis Jaudian Cabrera</h4>
                 <a href="#accountslink-cabrera"><div class="btn-style-default profiles-link lta-btn">LINK TO ACCOUNT</div></a>
                 <p class="profiles-desc">
+                    My birthday was 30th of October, year 2003 and I'm currently <span id="age-cabrera">.</span> years old.
                     A BSIT Student and a Web Developer that was particular in front 
                     end development. Learned with some kinds of programming 
                     languages for making web projects. Some of the programming 
                     languages that I learned including HTML, Java, JavaScript, CSS, 
-                    MySQL, C#, C++, Python, Proteus, Assembly, and PHP, Kotlin. Willing to help those 
+                    MySQL, C#, C++, Python, Proteus, Assembly, PHP, and Kotlin. Willing to help those 
                     who lacks in the use of communication and modern technology. 
                 </p>
                 <span  class="prog-fami-1">
@@ -166,7 +168,8 @@
                 <h4 class="profiles-fn">Eliazer Eruse Rabago Batul</h4>
                 <a href="#accountslink-batul"><div class="btn-style-default profiles-link lta-btn">LINK TO ACCOUNT</div></a>
                 <p class="profiles-desc">
-                    I am Eruse Batul 18 yrs old from bayanan and I'm excited to 
+                    My birthday was 18th of January, year 2004 and I'm currently <span id="age-batul">.</span> years old.
+                    I am Eruse Batul from bayanan and I'm excited to 
                     connect with you. I interestested in a few things like 
                     watching anime playing volleyball and basketball and I 
                     love exploring new ideas and challenges. Professionally, 
@@ -215,6 +218,7 @@
                 <h4 class="profiles-fn">Karyll Anne Leoveras</h4>
                 <a href="#accountslink-leoveras"><div class="btn-style-default profiles-link lta-btn">LINK TO ACCOUNT</div></a>
                 <p class="profiles-desc">
+                    My birthday was 5th of September, year 2002 and I'm currently <span id="age-leoveras">.</span> years old.
                     I am Karyll Anne Leoveras, a vibrant 21-year-old irregular 4th 
                     year student hailing from Bayanan, brings a unique perspective 
                     and a wealth of experiences to our project. This journey as an 
@@ -266,6 +270,7 @@
                 <h4 class="profiles-fn">John Bryan Toralde</h4>
                 <a href="#accountslink-toralde"><div class="btn-style-default profiles-link lta-btn">LINK TO ACCOUNT</div></a>
                 <p class="profiles-desc">
+                    My birthday was 14th of April, year 2004 and I'm currently <span id="age-toralde">.</span> years old.
                     I am John Bryan G. toralde 20 years old from sucat Muntinlupa City 
                     a 3rd year regular student. A student that want to know more about 
                     programming and technologies. I am a photographer in kultura teknika 
@@ -313,6 +318,7 @@
                 <h4 class="profiles-fn">Ronel Camacho</h4>
                 <a href="#accountslink-camacho"><div class="btn-style-default profiles-link lta-btn">LINK TO ACCOUNT</div></a>
                 <p class="profiles-desc">
+                    My birthday was DAYth of MONTH, year YEAR and I'm currently <span id="age-camacho">.</span> years old.
                     I am Ronel Camacho 22 years old studying in the Pamantasang Lungsod 
                     Muntinlupa, my passion is to play basketball and play online games 
                     like mobile legends.
@@ -358,8 +364,9 @@
                 <h4 class="profiles-fn">John Lawrence Loquinte</h4>
                 <a href="#accountslink-loquinte"><div class="btn-style-default profiles-link lta-btn">LINK TO ACCOUNT</div></a>
                 <p class="profiles-desc">
+                    My birthday was DAYth of MONTH, year YEAR and I'm currently <span id="age-loquinte">.</span> years old.
                     My name is John Lawrence C  Loquinte, I currently live in Biazon Ville 
-                    Poblacion Muntinlupa City, my hometown is in abuyog leyte.I am interested 
+                    Poblacion Muntinlupa City, my hometown is in abuyog leyte. I am interested 
                     in mobile games and I play basketball sometimes. I work often to have 
                     extra money for my needs.
                 </p><br><br><br> 
@@ -491,5 +498,74 @@
         <hr id="hr-styles">
         All Rights Reserved 2024.
     </div>
+
+    <!-- Automated Age JS--> 
+    <!-- PART OF BATUL -->
+   <script>
+        var bdCabrera =  new Date("2003-10-30");
+        var dt = new Date();
+        var ageCabrera = dt.getFullYear()  -  bdCabrera.getFullYear();
+        var monthGap =  dt.getMonth() - bdCabrera.getMonth();
+        if (monthGap < 0 || (monthGap === 0 && dt.getDate() < bdCabrera.getDate()))  {
+            ageCabrera--;
+        }
+        document.getElementById('age-cabrera').innerHTML = ageCabrera;
+    </script>
+
+    <script>  
+        var bdBatul = new Date("2004-1-18");
+        var dt = new Date();
+        var ageBatul = dt.getFullYear() - bdBatul.getFullYear();
+        var monthGap = dt.getMonth() - bdBatul.getMonth();
+        if (monthGap < 0 || (monthGap === 0 && dt.getDate() < bdBatul.getDate()))  {
+            ageBatul--;
+        }
+        document.getElementById('age-batul').innerHTML = ageBatul;
+    </script>
+
+    <script>  
+        var bdLeoveras =  new Date("2002-9-2");
+        var dt = new Date();
+        var ageLeoveras = dt.getFullYear()  -  bdLeoveras.getFullYear();
+        var monthGap =  dt.getMonth() - bdLeoveras.getMonth();
+        if (monthGap < 0 || (monthGap === 0 && dt.getDate() < bdLeoveras.getDate()))  {
+            ageLeoveras--;
+        }
+        document.getElementById('age-leoveras').innerHTML = ageLeoveras;
+    </script>
+
+    <script>  
+        var bdToralde =  new Date("2004-4-14");
+        var dt = new Date();
+        var ageToralde = dt.getFullYear()  -  bdToralde.getFullYear();
+        var monthGap =  dt.getMonth() - bdToralde.getMonth();
+        if (monthGap < 0 || (monthGap === 0 && dt.getDate() < bdToralde.getDate()))  {
+            ageToralde--;
+        }
+        document.getElementById('age-toralde').innerHTML = ageToralde;
+    </script>
+
+    <script>  
+        var bdCamacho =  new Date("YYYY-MM-DD");
+        var dt = new Date();
+        var ageCamacho = dt.getFullYear()  -  bdCamacho.getFullYear();
+        var monthGap =  dt.getMonth() - bdCamacho.getMonth();
+        if (monthGap < 0 || (monthGap === 0 && dt.getDate() < bdCamacho.getDate()))  {
+            ageCamacho--;
+        }
+        document.getElementById('age-camacho').innerHTML = ageCamacho;
+    </script>
+
+    <script>  
+        var bdLoquinte =  new Date("YYYY-MM-DD");
+        var dt = new Date();
+        var ageLoquinte = dt.getFullYear()  -  bdLoquinte.getFullYear();
+        var monthGap =  dt.getMonth() - bdLoquinte.getMonth();
+        if (monthGap < 0 || (monthGap === 0 && dt.getDate() < bdLoquinte.getDate()))  {
+            ageLoquinte--;
+        }
+        document.getElementById('age-loquinte').innerHTML = ageLoquinte;
+    </script>
+    
 </body>
 </html>
