@@ -47,10 +47,13 @@
 .darkmode #theme-switch svg:last-child{
     display: block;
 }
-
 /*START BODY*/
 html {
     scroll-behavior: smooth;
+    user-select: none; 
+    -moz-user-select: none; 
+    -webkit-text-select: none; 
+    -webkit-user-select: none;
 }
 body{
     background: var(--lm-bg-color);
@@ -75,6 +78,7 @@ body::-webkit-scrollbar {
 }
 .spce{
     font-size: 1.5vw;
+    margin: 1%;
 }
 .btn-style-default{
     font-size: 1rem;
@@ -88,9 +92,6 @@ body::-webkit-scrollbar {
     text-decoration: none;
     display: inline-block;
     box-shadow: 0 4px 1rem var(--lm-bs-color);
-}
-.spce{
-    margin: 1%;
 }
 #hr-styles{
     color: var(--lm-bg-color);
@@ -431,9 +432,9 @@ body::-webkit-scrollbar {
 .column a{
     text-decoration: none;
 }
-.rightborder{
+/* .rightborder{
     border-right: var(--lm-black) 2px solid;
-}
+} */
 /*END ACCOUNTS*/
 
 /*START ABOUTS*/

@@ -6,7 +6,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
     <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/carousel.css">
     <script type="text/javascript" src="../javascript/bgmode.js" defer></script>
+    <script type="text/javascript" src="../javascript/carousel.js" defer></script>
 </head>
 <body>
     <header>
@@ -116,7 +118,7 @@
             <div class="profmem-1" id="profmem-cabrera">
                 <img class="profiles-img" src="../assets/formalPic/cabrera.png" alt="">
                 <h4 class="profiles-fn">Mark Alexis Jaudian Cabrera</h4>
-                <a title="Redirect into account-link-Cabrera" href="#accountslink-cabrera"><div class="btn-style-default profiles-link lta-btn">LINK TO ACCOUNT</div></a>
+                <a title="Redirect into account-link-Cabrera" href="#accountslinks"><div class="btn-style-default profiles-link lta-btn">LINK TO ACCOUNT</div></a>
                 <p class="profiles-desc">
                     My birthday was 30th of October, year 2003 and I'm currently <span id="age-cabrera">.</span> years old.
                     A BSIT Student and a Web Developer that was particular in front 
@@ -165,7 +167,7 @@
             <div class="profmem-1" id="profmem-batul">
                 <img class="profiles-img" src="../assets/formalPic/batul.jfif" alt="">
                 <h4 class="profiles-fn">Eliazer Eruse Rabago Batul</h4>
-                <a title="Redirect into account-link-Batul" href="#accountslink-batul"><div class="btn-style-default profiles-link lta-btn">LINK TO ACCOUNT</div></a>
+                <a title="Redirect into account-link-Batul" href="#accountslinks"><div class="btn-style-default profiles-link lta-btn">LINK TO ACCOUNT</div></a>
                 <p class="profiles-desc">
                     My birthday was 18th of January, year 2004 and I'm currently <span id="age-batul">.</span> years old.
                     I am Eruse Batul from bayanan and I'm excited to 
@@ -215,7 +217,7 @@
             <div class="profmem-1" id="profmem-leoveras">
                 <img class="profiles-img" src="../assets/formalPic/leoveras.jfif" alt="">
                 <h4 class="profiles-fn">Karyll Anne Leoveras</h4>
-                <a title="Redirect into account-link-Leoveras" href="#accountslink-leoveras"><div class="btn-style-default profiles-link lta-btn">LINK TO ACCOUNT</div></a>
+                <a title="Redirect into account-link-Leoveras" href="#accountslinks"><div class="btn-style-default profiles-link lta-btn">LINK TO ACCOUNT</div></a>
                 <p class="profiles-desc">
                     My birthday was 5th of September, year 2002 and I'm currently <span id="age-leoveras">.</span> years old.
                     I am Karyll Anne Leoveras, a vibrant 21-year-old irregular 4th 
@@ -267,7 +269,7 @@
             <div class="profmem-1" id="profmem-toralde">
                 <img class="profiles-img" src="../assets/formalPic/toralde.jpg" alt="">
                 <h4 class="profiles-fn">John Bryan Toralde</h4>
-                <a title="Redirect into account-link-Toralde" href="#accountslink-toralde"><div class="btn-style-default profiles-link lta-btn">LINK TO ACCOUNT</div></a>
+                <a title="Redirect into account-link-Toralde" href="#accountslinks"><div class="btn-style-default profiles-link lta-btn">LINK TO ACCOUNT</div></a>
                 <p class="profiles-desc">
                     My birthday was 14th of April, year 2004 and I'm currently <span id="age-toralde">.</span> years old.
                     I am John Bryan G. toralde 20 years old from sucat Muntinlupa City 
@@ -315,10 +317,10 @@
             <div class="profmem-1" id="profmem-camacho">
                 <img class="profiles-img" src="../assets/formalPic/camacho.jpg" alt="">
                 <h4 class="profiles-fn">Ronel Camacho</h4>
-                <a title="Redirect into account-link-Camacho" href="#accountslink-camacho"><div class="btn-style-default profiles-link lta-btn">LINK TO ACCOUNT</div></a>
+                <a title="Redirect into account-link-Camacho" href="#accountslinks"><div class="btn-style-default profiles-link lta-btn">LINK TO ACCOUNT</div></a>
                 <p class="profiles-desc">
                     My birthday was DAYth of MONTH, year YEAR and I'm currently <span id="age-camacho">.</span> years old.
-                    I am Ronel Camacho 22 years old studying in the Pamantasang Lungsod 
+                    I am Ronel Camacho studying in the Pamantasang Lungsod 
                     Muntinlupa, my passion is to play basketball and play online games 
                     like mobile legends.
                 </p><br><br><br> 
@@ -361,7 +363,7 @@
             <div class="profmem-1" id="profmem-loquinte">
                 <img class="profiles-img" src="../assets/formalPic/loquinte.jfif" alt="">
                 <h4 class="profiles-fn">John Lawrence Loquinte</h4>
-                <a title="Redirect into account-link-Loquinte" href="#accountslink-loquinte"><div class="btn-style-default profiles-link lta-btn">LINK TO ACCOUNT</div></a>
+                <a title="Redirect into account-link-Loquinte" href="#accountslinks"><div class="btn-style-default profiles-link lta-btn">LINK TO ACCOUNT</div></a>
                 <p class="profiles-desc">
                     My birthday was DAYth of MONTH, year YEAR and I'm currently <span id="age-loquinte">.</span> years old.
                     My name is John Lawrence C  Loquinte, I currently live in Biazon Ville 
@@ -410,69 +412,94 @@
         <!--Dito yung division para sa Accounts-->
         <div class="accountslinks spce" id="accountslinks">
             <h1><b>ACCOUNTS:</b></h1>
-            <div class="row">
-                <!---->
-                <div class="column rightborder" id="accountslink-cabrera">
-                  <h2>Mark Alexis Jaudian Cabrera</h2>
-                  <p>
-                    <a title="GITHUB-account-link-Cabrera" href="https://github.com/MarkAlexisJaudianCabrera" class="btn-style-default accountslink-btn-styles">GITHUB</a><br><br>
-                    <a title="COURSERA-account-link-Cabrera" href="https://www.coursera.org/user/5cb284fb5b0b4602712261dd4a4e0e14" class="btn-style-default accountslink-btn-styles">COURSERA</a><br><br>
-                    <a title="UDEMY-account-link-Cabrera" href="https://www.udemy.com/user/mark-alexis-jaudian-cabrera/" class="btn-style-default accountslink-btn-styles"> GREAT LEARNING/UDEMY</a><br><br>
-                    <a title="LINKEDIN-account-link-Cabrera" href="https://www.linkedin.com/in/mark-alexis-cabrera-50007a282/" class="btn-style-default accountslink-btn-styles">LINKEDIN</a><br><br>
-                  </p>
+            <div class="carousel-padding-for-navbtns">
+                <div class="carousel">
+                    <div class="carousel__item carousel__item--selected">
+                        <div class="row row1">
+                            <!---->
+                            <div class="column rightborder" id="accountslink-cabrera">
+                                <h2>Mark Alexis Jaudian Cabrera</h2>
+                                <p>
+                                    <a title="GITHUB-account-link-Cabrera" href="https://github.com/MarkAlexisJaudianCabrera" class="btn-style-default accountslink-btn-styles">GITHUB</a><br><br>
+                                    <a title="COURSERA-account-link-Cabrera" href="https://www.coursera.org/user/5cb284fb5b0b4602712261dd4a4e0e14" class="btn-style-default accountslink-btn-styles">COURSERA</a><br><br>
+                                    <a title="UDEMY-account-link-Cabrera" href="https://www.udemy.com/user/mark-alexis-jaudian-cabrera/" class="btn-style-default accountslink-btn-styles"> GREAT LEARNING/UDEMY</a><br><br>
+                                    <a title="LINKEDIN-account-link-Cabrera" href="https://www.linkedin.com/in/mark-alexis-cabrera-50007a282/" class="btn-style-default accountslink-btn-styles">LINKEDIN</a><br><br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel__item">
+                        <div class="row row1">
+                            <!---->
+                            <div class="column rightborder" id="accountslink-cabrera">
+                                <h2>Eliazer Eruse Rabago Batul</h2>
+                                <p>
+                                    <a title="GITHUB-account-link-Batul" href="https://github.com/Russsssan" class="btn-style-default accountslink-btn-styles">GITHUB</a><br><br>
+                                    <a title="COURSERA-account-link-Batul" href="https://www.coursera.org/user/149aa3d16c5f8e3ff5ecd99a28757ce2" class="btn-style-default accountslink-btn-styles">COURSERA</a><br><br>
+                                    <a title="UDEMY-account-link-Batul" href="https://www.udemy.com/user/eliazer-eruse-batul/" class="btn-style-default accountslink-btn-styles"> GREAT LEARNING/UDEMY</a><br><br>
+                                    <a title="LINKEDIN-account-link-Batul" href="https://ph.linkedin.com/in/eruse-batul-554037323" class="btn-style-default accountslink-btn-styles">LINKEDIN</a><br><br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel__item">
+                        <div class="row row1">
+                            <!---->
+                            <div class="column rightborder" id="accountslink-cabrera">
+                                <h2>Karyll Anne Leoveras</h2>
+                                <p>
+                                    <a title="GITHUB-account-link-Leoveras" href="https://github.com/Leoveraskaryllanne" class="btn-style-default accountslink-btn-styles">GITHUB</a><br><br>
+                                    <a title="COURSERA-account-link-Leoveras" href="https://www.coursera.org/user/db26bc88c86f4cd159e16cc770819506" class="btn-style-default accountslink-btn-styles">COURSERA</a><br><br>
+                                    <a title="UDEMY-account-link-Leoveras" href="https://www.udemy.com/user/karyll-anne-leoveras/" class="btn-style-default accountslink-btn-styles"> GREAT LEARNING/UDEMY</a><br><br>
+                                    <a title="LINKEDIN-account-link-Leoveras" href="https://ph.linkedin.com/in/karyll-anne-leoveras-1889a8322" class="btn-style-default accountslink-btn-styles">LINKEDIN</a><br><br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel__item">
+                        <div class="row row1">
+                            <!---->
+                            <div class="column rightborder" id="accountslink-cabrera">
+                                <h2>John Bryan Toralde</h2>
+                                <p>
+                                    <a title="GITHUB-account-link-Toralde" href="https://github.com/Bryan-toralde" class="btn-style-default accountslink-btn-styles">GITHUB</a><br><br>
+                                    <a title="COURSERA-account-link-Toralde" href="https://www.coursera.org/user/b8da74546d431b741f5cbcd4e8a38a8b" class="btn-style-default accountslink-btn-styles">COURSERA</a><br><br>
+                                    <a title="UDEMY-account-link-Toralde" href="https://www.udemy.com/user/john-bryan-toralde/" class="btn-style-default accountslink-btn-styles"> GREAT LEARNING/UDEMY</a><br><br>
+                                    <a title="LINKEDIN-account-link-Toralde" href="https://www.linkedin.com/in/john-bryan-toralde-bb9049323" class="btn-style-default accountslink-btn-styles">LINKEDIN</a><br><br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel__item">
+                        <div class="row row1">
+                            <!---->
+                            <div class="column rightborder" id="accountslink-cabrera">
+                                <h2>Ronel Camacho</h2>
+                                <p>
+                                    <a title="GITHUB-account-link-Camacho" href="https://github.com/Nelnel0520" class="btn-style-default accountslink-btn-styles">GITHUB</a><br><br>
+                                    <a title="COURSERA-account-link-Camacho" href="https://www.coursera.org/user/4df5e8f3c43589f3ca10195df5ad3b2b" class="btn-style-default accountslink-btn-styles">COURSERA</a><br><br>
+                                    <a title="UDEMY-account-link-Camacho" href="https://www.udemy.com/user/ronel-camacho/" class="btn-style-default accountslink-btn-styles"> GREAT LEARNING/UDEMY</a><br><br>
+                                    <a title="LINKEDIN-account-link-Camacho" href="https://www.linkedin.com/in/ronel-camacho-894062323" class="btn-style-default accountslink-btn-styles">LINKEDIN</a><br><br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel__item">
+                        <div class="row row1">
+                            <!---->
+                            <div class="column rightborder" id="accountslink-cabrera">
+                                <h2>John Lawrence Loquinte</h2>
+                                <p>
+                                    <a title="GITHUB-account-link-Loquinte" href="https://github.com/lawrenceeee2002" class="btn-style-default accountslink-btn-styles">GITHUB</a><br><br>
+                                    <a title="COURSERA-account-link-Loquinte" href="https://www.coursera.org/user/cf72e77ee65a117791f0a6d2a5c31651" class="btn-style-default accountslink-btn-styles">COURSERA</a><br><br>
+                                    <a title="UDEMY-account-link-Loquinte" href="https://www.udemy.com/user/john-lawrence-loquinte/" class="btn-style-default accountslink-btn-styles"> GREAT LEARNING/UDEMY</a><br><br>
+                                    <a title="LINKEDIN-account-link-Loquinte" href="https://www.linkedin.com/in/john-lawrence-loquinte-b3b39b323" class="btn-style-default accountslink-btn-styles">LINKEDIN</a><br><br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <!---->
-                <div class="column rightborder" id="accountslink-batul">
-                  <h2>Eliazer Eruse Rabago Batul</h2>
-                  <p>
-                    <a title="GITHUB-account-link-Batul" href="https://github.com/Russsssan" class="btn-style-default accountslink-btn-styles">GITHUB</a><br><br>
-                    <a title="COURSERA-account-link-Batul" href="https://www.coursera.org/user/149aa3d16c5f8e3ff5ecd99a28757ce2" class="btn-style-default accountslink-btn-styles">COURSERA</a><br><br>
-                    <a title="UDEMY-account-link-Batul" href="https://www.udemy.com/user/eliazer-eruse-batul/" class="btn-style-default accountslink-btn-styles"> GREAT LEARNING/UDEMY</a><br><br>
-                    <a title="LINKEDIN-account-link-Batul" href="https://ph.linkedin.com/in/eruse-batul-554037323" class="btn-style-default accountslink-btn-styles">LINKEDIN</a><br><br>
-                  </p>
-                </div>
-                <div class="column" id="accountslink-leoveras">
-                  <h2>Karyll Anne Leoveras</h2>
-                  <p>
-                    <a title="GITHUB-account-link-Leoveras" href="https://github.com/Leoveraskaryllanne" class="btn-style-default accountslink-btn-styles">GITHUB</a><br><br>
-                    <a title="COURSERA-account-link-Leoveras" href="https://www.coursera.org/user/db26bc88c86f4cd159e16cc770819506" class="btn-style-default accountslink-btn-styles">COURSERA</a><br><br>
-                    <a title="UDEMY-account-link-Leoveras" href="https://www.udemy.com/user/karyll-anne-leoveras/" class="btn-style-default accountslink-btn-styles"> GREAT LEARNING/UDEMY</a><br><br>
-                    <a title="LINKEDIN-account-link-Leoveras" href="https://ph.linkedin.com/in/karyll-anne-leoveras-1889a8322" class="btn-style-default accountslink-btn-styles">LINKEDIN</a><br><br>
-                  </p>
-                </div>
-              </div>
-            </div> 
-        </div>
-        <div class="accountslinks spce" id="accountslinks">
-            <div class="row">
-                <div class="column rightborder" id="accountslink-toralde">
-                  <h2>John Bryan Toralde</h2>
-                  <p>
-                    <a title="GITHUB-account-link-Toralde" href="https://github.com/Bryan-toralde" class="btn-style-default accountslink-btn-styles">GITHUB</a><br><br>
-                    <a title="COURSERA-account-link-Toralde" href="https://www.coursera.org/user/b8da74546d431b741f5cbcd4e8a38a8b" class="btn-style-default accountslink-btn-styles">COURSERA</a><br><br>
-                    <a title="UDEMY-account-link-Toralde" href="https://www.udemy.com/user/john-bryan-toralde/" class="btn-style-default accountslink-btn-styles"> GREAT LEARNING/UDEMY</a><br><br>
-                    <a title="LINKEDIN-account-link-Toralde" href="https://www.linkedin.com/in/john-bryan-toralde-bb9049323" class="btn-style-default accountslink-btn-styles">LINKEDIN</a><br><br>
-                  </p>
-                </div>
-                <div class="column rightborder" id="accountslink-camacho">
-                  <h2>Ronel Camacho</h2><br>
-                  <p>
-                    <a title="GITHUB-account-link-Camacho" href="https://github.com/Nelnel0520" class="btn-style-default accountslink-btn-styles">GITHUB</a><br><br>
-                    <a title="COURSERA-account-link-Camacho" href="https://www.coursera.org/user/4df5e8f3c43589f3ca10195df5ad3b2b" class="btn-style-default accountslink-btn-styles">COURSERA</a><br><br>
-                    <a title="UDEMY-account-link-Camacho" href="https://www.udemy.com/user/ronel-camacho/" class="btn-style-default accountslink-btn-styles"> GREAT LEARNING/UDEMY</a><br><br>
-                    <a title="LINKEDIN-account-link-Camacho" href="https://www.linkedin.com/in/ronel-camacho-894062323" class="btn-style-default accountslink-btn-styles">LINKEDIN</a><br><br>
-                  </p>
-                </div>
-                <div class="column" id="accountslink-loquinte">
-                  <h2>John Lawrence Loquinte</h2>
-                  <p>
-                    <a title="GITHUB-account-link-Loquinte" href="https://github.com/lawrenceeee2002" class="btn-style-default accountslink-btn-styles">GITHUB</a><br><br>
-                    <a title="COURSERA-account-link-Loquinte" href="https://www.coursera.org/user/cf72e77ee65a117791f0a6d2a5c31651" class="btn-style-default accountslink-btn-styles">COURSERA</a><br><br>
-                    <a title="UDEMY-account-link-Loquinte" href="https://www.udemy.com/user/john-lawrence-loquinte/" class="btn-style-default accountslink-btn-styles"> GREAT LEARNING/UDEMY</a><br><br>
-                    <a title="LINKEDIN-account-link-Loquinte" href="https://www.linkedin.com/in/john-lawrence-loquinte-b3b39b323" class="btn-style-default accountslink-btn-styles">LINKEDIN</a><br><br>
-                  </p>
-                </div>
-              </div>
+            </div>
         </div>
 
         <!--Dito yung division para sa About-->
@@ -491,6 +518,7 @@
             <img class="plmun-logo-1" src="https://plmun.edu.ph/student-portal//shared/images/plmun-logo-1.png" alt="">
         </div>
     </div>
+
      <!--Dito yung division para sa Footer-->
      <div class="footerr">
         <br>
@@ -499,10 +527,58 @@
     </div>
 
     <!-- Automated Age JS--> 
-    <!-- PART OF BATUL -->
-   <script>
-        var bdCabrera =  new Date("2003-10-30");
+    <!-- PART OF CABRERA -->
+     <?php
+        $phpBdCabrera = "2003-10-30";
+        $phpBdBatul = "2004-1-18";
+        $phpBdLeoveras = "2002-9-2";
+        $phpBdToralde = "2004-4-14";
+        $phpBdCamacho = "2002-00-00";
+        $phpBdLoquinte = "2002-00-00";
+     ?>
+
+    <!-- ALL INITIALIZED FOR AUTOMATED AGE -->
+    <script>
+        //CURRENT DATE
         var dt = new Date();
+
+        //Value for CABRERA
+        var phpBdCabrera = "<?php echo $phpBdCabrera; ?>";
+        var CabParts = phpBdCabrera.split('-');
+        var bdCabrera = new Date(CabParts[0], CabParts[1] - 1, CabParts[2]);
+
+        //Value for BATUL
+        var phpBdBatul = "<?php echo $phpBdBatul; ?>";
+        var BatParts = phpBdBatul.split('-');
+        var bdBatul = new Date(BatParts[0], BatParts[1] - 1, BatParts[2]);
+
+        //Value for LEOVERAS
+        var phpBdLeoveras = "<?php echo $phpBdLeoveras; ?>";
+        var LeoParts = phpBdLeoveras.split('-');
+        var bdLeoveras = new Date(LeoParts[0], LeoParts[1] - 1, LeoParts[2]);
+
+        //Value for TORALDE
+        var phpBdToralde = "<?php echo $phpBdToralde; ?>";
+        var TorParts = phpBdToralde.split('-');
+        var bdToralde = new Date(TorParts[0], TorParts[1] - 1, TorParts[2]);
+
+        //Value for CAMACHO
+        var phpBdCamacho = "<?php echo $phpBdCamacho; ?>";
+        var CamParts = phpBdCamacho.split('-');
+        var bdCamacho = new Date(CamParts[0], CamParts[1] - 1, CamParts[2]);
+
+        //Value for LOQUINTE
+        var phpBdLoquinte = "<?php echo $phpBdLoquinte; ?>";
+        var LoqParts = phpBdLoquinte.split('-');
+        var bdLoquinte = new Date(LoqParts[0], LoqParts[1] - 1, LoqParts[2]);
+    </script>
+
+    <!-- PART OF BATUL -->
+
+
+   <script>
+        //var bdCabrera =  new Date("2003-10-30");
+        //var dt = new Date();
         var ageCabrera = dt.getFullYear()  -  bdCabrera.getFullYear();
         var monthGap =  dt.getMonth() - bdCabrera.getMonth();
         if (monthGap < 0 || (monthGap === 0 && dt.getDate() < bdCabrera.getDate()))  {
@@ -512,8 +588,8 @@
     </script>
 
     <script>  
-        var bdBatul = new Date("2004-1-18");
-        var dt = new Date();
+        //var bdBatul = new Date("2004-1-18");
+        //var dt = new Date();
         var ageBatul = dt.getFullYear() - bdBatul.getFullYear();
         var monthGap = dt.getMonth() - bdBatul.getMonth();
         if (monthGap < 0 || (monthGap === 0 && dt.getDate() < bdBatul.getDate()))  {
@@ -523,8 +599,8 @@
     </script>
 
     <script>  
-        var bdLeoveras =  new Date("2002-9-2");
-        var dt = new Date();
+        //var bdLeoveras =  new Date("2002-9-2");
+        //var dt = new Date();
         var ageLeoveras = dt.getFullYear()  -  bdLeoveras.getFullYear();
         var monthGap =  dt.getMonth() - bdLeoveras.getMonth();
         if (monthGap < 0 || (monthGap === 0 && dt.getDate() < bdLeoveras.getDate()))  {
@@ -534,8 +610,8 @@
     </script>
 
     <script>  
-        var bdToralde =  new Date("2004-4-14");
-        var dt = new Date();
+        //var bdToralde =  new Date("2004-4-14");
+        //var dt = new Date();
         var ageToralde = dt.getFullYear()  -  bdToralde.getFullYear();
         var monthGap =  dt.getMonth() - bdToralde.getMonth();
         if (monthGap < 0 || (monthGap === 0 && dt.getDate() < bdToralde.getDate()))  {
@@ -545,8 +621,8 @@
     </script>
 
     <script>  
-        var bdCamacho =  new Date("YYYY-MM-DD");
-        var dt = new Date();
+        //var bdCamacho =  new Date("YYYY-MM-DD");
+        //var dt = new Date();
         var ageCamacho = dt.getFullYear()  -  bdCamacho.getFullYear();
         var monthGap =  dt.getMonth() - bdCamacho.getMonth();
         if (monthGap < 0 || (monthGap === 0 && dt.getDate() < bdCamacho.getDate()))  {
@@ -556,8 +632,8 @@
     </script>
 
     <script>  
-        var bdLoquinte =  new Date("YYYY-MM-DD");
-        var dt = new Date();
+        //var bdLoquinte =  new Date("YYYY-MM-DD");
+        //var dt = new Date();
         var ageLoquinte = dt.getFullYear()  -  bdLoquinte.getFullYear();
         var monthGap =  dt.getMonth() - bdLoquinte.getMonth();
         if (monthGap < 0 || (monthGap === 0 && dt.getDate() < bdLoquinte.getDate()))  {
