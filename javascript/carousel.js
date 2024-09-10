@@ -41,22 +41,22 @@ document.querySelectorAll(".carousel").forEach(carousel => {
         if(a>=0){
             if(a==0){
                 i = 5;
-                console.log("asdsadsada");
+                console.log("Clicked 1");
             }else if(a==1){
                 i = 0;
-                console.log("asdsadsada2");
+                console.log("Clicked 2");
             }else if(a==2){
                 i = 1;
-                console.log("asdsadsada2");
+                console.log("Clicked 3");
             }else if(a==3){
                 i = 2;
-                console.log("asdsadsada2");
+                console.log("Clicked 4");
             }else if(a==4){
                 i = 3;
-                console.log("asdsadsada2");
+                console.log("Clicked 5");
             }else if(a==5){
                 i = 4;
-                console.log("asdsadsada2");
+                console.log("Clicked 6");
             }
         }
         items[i].classList.add("carousel__item--selected");
@@ -75,22 +75,22 @@ document.querySelectorAll(".carousel").forEach(carousel => {
         if(a>=0){
             if(a==0){
                 i = 1;
-                console.log("asdsadsada");
+                console.log("Clicked 1");
             }else if(a==1){
                 i = 2;
-                console.log("asdsadsada2");
+                console.log("Clicked 2");
             }else if(a==2){
                 i = 3;
-                console.log("asdsadsada2");
+                console.log("Clicked 3");
             }else if(a==3){
                 i = 4;
-                console.log("asdsadsada2");
+                console.log("Clicked 4");
             }else if(a==4){
                 i = 5;
-                console.log("asdsadsada2");
+                console.log("Clicked 5");
             }else if(a==5){
                 i = 0;
-                console.log("asdsadsada2");
+                console.log("Clicked 6");
             }
         }
         //let a = i===0?1:1||1?2:2||2?3:3||3?4:4||4?5:5;
